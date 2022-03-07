@@ -17,8 +17,8 @@ Snake Case: user_login_count
 # num1 = 2  # zmienna a ma typ integer (liczba całkowita)
 # num2 = 7.345134   # zmienna b typ float (liczba zmiennoprzecinkowa)
 # num3 = num1 + num2
-# # pot_num2_num3 = num2 ** num3  # ** to operator potęgowania  num2^num3
-# # print(num1)
+# pot_num2_num3 = num2 ** num3  # ** to operator potęgowania  num2^num3
+# print(num1, '+' ,num2, '=' ,num3)
 # # print(num2)
 # print(num3)
 # # print(num4)
@@ -35,8 +35,6 @@ Snake Case: user_login_count
 # Y = '2'
 # print("Zmienna X ma typ: ",type(X))
 # print("Zmienna Y ma typ: ",type(Y))
-# print(z,"ma kotów: ",str(X))
-# print(z,"ma kotów: ",Y)
 # print(X+Y)
 
 ### Komunikacja/interakcja z użytkownikiem
@@ -66,12 +64,48 @@ Snake Case: user_login_count
 
 ##############Zadania do wykonania, Twoje pierwsze algorytmy
 # 1. Wykonaj odejmowanie, mnożenie i dzielenie 2 dowolnych liczb
+
+# zm1 = input("Podaj zmienną x =") 
+# zm2 = input("Podaj zmienną y =")
+# wynik_mnozenia = float(zm1) * float(zm2)
+# print('wynik mnozenia', wynik_mnozenia)
+
+# zm1 = input("Podaj zmienną x =") 
+# zm2 = input("Podaj zmienną y =")
+# wynik_dzielenia = float(zm1) / float(zm2)
+# print('wynik dzielenia', wynik_dzielenia)
+
+
 # 2. Oblicz wyrażenie 2x+5y   gdzie: x,y to dowolne dwie liczby które podaje użytkownik (w konsoli)
+
+# x = float(input("Podaj zmienną x =")) 
+# y = float(input("Podaj zmienną y ="))
+# wynik = 2*x+5*y
+# print('wynik', wynik)
+
 # 3. Popraw zmienną zdanie tak aby wyświetlany był napis: "Ala ma kota"
+
+# z = 'Ala '
+# x = "ma "
+# y = "kota"
+# zdanie = z + x + y
+# print(zdanie)
+# print(z,x,y)
+
 # 4. Wyświetl zdanie "Jestem a b mam c lat studiuję d",
 #  gdzie : a-imie, a-nazwisko, c-liczba, d-kierunek studiów są dowolne zmienne które podaje użytkownik (wczytywane z klawiatury)
+
+# imie = input('Podaj imie: ')
+# nazwisko = input('Podaj nazwisko: ')
+# wiek = int(input('Podaj wiek: '))
+# kierunek = input('Podaj kierunek studiow: ')
+# print('Jestem', imie, nazwisko, 'mam', wiek, 'lat', 'studiuje', kierunek)
+
 # 5. Sprawdź/porównaj czy 1+2+10+20000001+4+347586970885 jest równa 321784560456434534646
-# 6. Sprawdź czy suma dowolnych dwóch liczb podanych przez użytkownika jest liczbą parzystą czy nieparzystą wyświetl właściwy komunikat
+
+print(1+2+10+20000001+4+347586970885 == 321784560456434534646)
+
+# 6. Sprawdź czy suma dowolnych dwóch liczb podanych przez użytkownika jest liczbą parzystą czy nieparzystą wyświetl właściwy komunikat (nierobic!)
 # 7. Utwórz prosty kalkulator dla 2 zmiennych podanych przez użytkownika, który obliczy: sumę, różnicę,
 # iloczyn, iloraz, potęgę tych liczb, nie zapomnij o stosownych komentarzach informacyjnych dla użytkownika.
 # 8. Sprawdź wynik działań

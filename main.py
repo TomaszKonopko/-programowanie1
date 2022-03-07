@@ -1,2 +1,1 @@
 import Laboratorium1
-import Laboratorium2&3
